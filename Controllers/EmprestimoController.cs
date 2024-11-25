@@ -16,4 +16,24 @@ public class EmprestimoController : Controller
         IEnumerable<EmprestimosModel> emprestimos = _context.Emprestimos;
         return View(emprestimos);
     }
+
+    [HttpGet]
+    public IActionResult Cadastrar()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Cadastrar(EmprestimosModel emprestimos) 
+    {
+        if (ModelState.IsValid)
+        {
+            _context.Emprestimos.Add(emprestimos);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        return View();
+    }
 }
