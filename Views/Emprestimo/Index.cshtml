@@ -18,18 +18,18 @@
 	</tr>
 </thead>
 <tbody>
-	<tr>
-		@if(Model != null)
+	@if(Model != null)
+	{
+		@foreach(var emprestimo in Model)
 		{
-			@foreach(var emprestimo in Model)
-			{
+			<tr>
 				<th scope="row">@emprestimo.Recebedor</th>
 				<td>@emprestimo.Fornecedor</td>
 				<td>@emprestimo.LivroEmprestado</td>
 				<td>@emprestimo.DataUltimaAtualizacao</td>
-			}			
+			</tr>
 		}				
-	</tr>
+	}
 </tbody>
 </table>
 </div>
