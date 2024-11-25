@@ -16,4 +16,9 @@ public class EmprestimoController : Controller
         IEnumerable<EmprestimosModel> emprestimos = _context.Emprestimos;
         return View(emprestimos);
     }
+
+    public IActionResult Cadastrar()
+    {
+        return View();
+    }
 }
