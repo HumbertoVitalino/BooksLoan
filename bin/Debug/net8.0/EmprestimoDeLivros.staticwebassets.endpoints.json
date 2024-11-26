@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 18:06:20 GMT"
+          "Value": "Tue, 26 Nov 2024 20:54:21 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,13 +74,95 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 18:06:20 GMT"
+          "Value": "Tue, 26 Nov 2024 20:54:21 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-lY9kdAx1owkOJDQt5c5Csn38ZbbqXLonBLecf0c0dXY="
+        }
+      ]
+    },
+    {
+      "Route": "css/Materia.css",
+      "AssetFile": "css/Materia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 20:54:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Materia.l6y9x6evqi.css",
+      "AssetFile": "css/Materia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 20:54:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6y9x6evqi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg="
+        },
+        {
+          "Name": "label",
+          "Value": "css/Materia.css"
         }
       ]
     },
