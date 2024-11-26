@@ -171,3 +171,8 @@ C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\obj\Debug\
 C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\obj\Debug\net8.0\EmprestimoDeLivros.pdb
 C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\obj\Debug\net8.0\EmprestimoDeLivros.genruntimeconfig.cache
 C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\obj\Debug\net8.0\ref\EmprestimoDeLivros.dll
+C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\humbe\Desktop\projetos\EmprestimoDeLivros\EmprestimoDeLivros\obj\Debug\net8.0\EmprestimoDeLivros.MvcApplicationPartsAssemblyInfo.cs
