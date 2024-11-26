@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/EmprestimoDeLivros/css/Materia.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Materia.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TU4jUGkYpEJVnE5hZ\u002B0/xxU6OBPI251VD0UtSXbmPSg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"308370"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022TU4jUGkYpEJVnE5hZ\u002B0/xxU6OBPI251VD0UtSXbmPSg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 20:54:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EmprestimoDeLivros/css/Materia.l6y9x6evqi.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Materia.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l6y9x6evqi"},{"Name":"integrity","Value":"sha256-TU4jUGkYpEJVnE5hZ\u002B0/xxU6OBPI251VD0UtSXbmPSg="},{"Name":"label","Value":"_content/EmprestimoDeLivros/css/Materia.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"308370"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022TU4jUGkYpEJVnE5hZ\u002B0/xxU6OBPI251VD0UtSXbmPSg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 20:54:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EmprestimoDeLivros/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -16,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EmprestimoDeLivros.1dw7slmuze.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1dw7slmuze"},{"Name":"integrity","Value":"sha256-lY9kdAx1owkOJDQt5c5Csn38ZbbqXLonBLecf0c0dXY="},{"Name":"label","Value":"_content/EmprestimoDeLivros/EmprestimoDeLivros.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lY9kdAx1owkOJDQt5c5Csn38ZbbqXLonBLecf0c0dXY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 18:06:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lY9kdAx1owkOJDQt5c5Csn38ZbbqXLonBLecf0c0dXY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 20:54:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EmprestimoDeLivros/EmprestimoDeLivros.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EmprestimoDeLivros.1dw7slmuze.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lY9kdAx1owkOJDQt5c5Csn38ZbbqXLonBLecf0c0dXY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lY9kdAx1owkOJDQt5c5Csn38ZbbqXLonBLecf0c0dXY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 18:06:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lY9kdAx1owkOJDQt5c5Csn38ZbbqXLonBLecf0c0dXY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 20:54:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EmprestimoDeLivros/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
