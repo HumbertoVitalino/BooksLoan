@@ -1,8 +1,72 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home - Gerenciamento de Empréstimos";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <!-- Hero Section -->
+    <div class="row align-items-center mb-5">
+        <div class="col-lg-6">
+            <h1 class="display-4 fw-bold">Gerencie Seus Empréstimos com Facilidade</h1>
+            <p class="lead text-muted">Conecte-se com amigos e familiares para emprestar e gerenciar livros diretamente entre vocês.</p>
+            <a href="Emprestimo/Index" class="btn btn-primary btn-lg me-3">
+                <i class="bi bi-person-arrows"></i> Gerenciar Empréstimos
+            </a>
+            <a href="Home/About" class="btn btn-outline-secondary btn-lg">
+                <i class="bi bi-info-circle"></i> Saiba Mais
+            </a>
+        </div>
+        <div class="col-lg-6 text-center">
+            <img src="https://media.gettyimages.com/id/165752299/pt/vetorial/estante-de-livro.jpg?s=612x612&w=gi&k=20&c=bpynnLTC8E4rT73MM1h5NrS7Dkq6yrjvqTZg1W3VjDE=" alt="Troca de Livros" class="img-fluid rounded shadow-sm">
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row text-center py-5 bg-light rounded shadow-sm">
+        <div class="col-md-4">
+            <i class="bi bi-person-plus fs-1 text-primary"></i>
+            <h3 class="mt-3">Conexão Entre Pessoas</h3>
+            <p class="text-muted">Permita que seus amigos e familiares vejam quais livros você está disposto a emprestar.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-bookmark-check fs-1 text-primary"></i>
+            <h3 class="mt-3">Controle de Empréstimos</h3>
+            <p class="text-muted">Mantenha um registro de quem está com cada livro e quando ele deve ser devolvido.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-chat-dots fs-1 text-primary"></i>
+            <h3 class="mt-3">Comunicação Fácil</h3>
+            <p class="text-muted">Facilite a comunicação sobre devoluções e novos empréstimos com mensagens integradas.</p>
+        </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <div class="py-5">
+        <h2 class="text-center fw-bold mb-4">Como Funciona?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">1. Cadastre-se</h5>
+                        <p class="card-text">Crie sua conta e convide amigos para começar a emprestar seus livros.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">2. Crie um Empréstimo</h5>
+                        <p class="card-text">Registre um novo empréstimo com informações detalhadas sobre o livro e a pessoa que o receberá.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">3. Acompanhe e Finalize</h5>
+                        <p class="card-text">Monitore o status dos empréstimos e finalize-os quando o livro for devolvido.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

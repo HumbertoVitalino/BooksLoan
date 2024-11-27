@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jY1u8GCEt/7l2PbfMmK6Be6gs6eCfJMZcEAC/2L/SE8=",
+  "Hash": "4JwdSv4mZWECsU1eaOBNRjAIvdE8bVK3IRRnWWm9Pg8=",
   "Source": "EmprestimoDeLivros",
   "BasePath": "_content/EmprestimoDeLivros",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\humbe\\Desktop\\projetos\\EmprestimoDeLivros\\EmprestimoDeLivros\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EmprestimoDeLivros.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\humbe\\Desktop\\projetos\\EmprestimoDeLivros\\EmprestimoDeLivros\\wwwroot\\css\\Materia.css",
+      "SourceId": "EmprestimoDeLivros",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\humbe\\Desktop\\projetos\\EmprestimoDeLivros\\EmprestimoDeLivros\\wwwroot\\",
+      "BasePath": "_content/EmprestimoDeLivros",
+      "RelativePath": "css/Materia#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l6y9x6evqi",
+      "Integrity": "TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Materia.css"
     },
     {
       "Identity": "C:\\Users\\humbe\\Desktop\\projetos\\EmprestimoDeLivros\\EmprestimoDeLivros\\wwwroot\\css\\site.css",
@@ -1321,6 +1342,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/Materia.css",
+      "AssetFile": "C:\\Users\\humbe\\Desktop\\projetos\\EmprestimoDeLivros\\EmprestimoDeLivros\\wwwroot\\css\\Materia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 20:54:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Materia.l6y9x6evqi.css",
+      "AssetFile": "C:\\Users\\humbe\\Desktop\\projetos\\EmprestimoDeLivros\\EmprestimoDeLivros\\wwwroot\\css\\Materia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 20:54:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6y9x6evqi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Materia.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TU4jUGkYpEJVnE5hZ+0/xxU6OBPI251VD0UtSXbmPSg="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\humbe\\Desktop\\projetos\\EmprestimoDeLivros\\EmprestimoDeLivros\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1425,7 +1528,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 18:06:20 GMT"
+          "Value": "Tue, 26 Nov 2024 20:54:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1470,7 +1573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 18:06:20 GMT"
+          "Value": "Tue, 26 Nov 2024 20:54:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1515,7 +1618,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 18:06:20 GMT"
+          "Value": "Tue, 26 Nov 2024 20:54:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1552,7 +1655,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 18:06:20 GMT"
+          "Value": "Tue, 26 Nov 2024 20:54:21 GMT"
         },
         {
           "Name": "Cache-Control",
