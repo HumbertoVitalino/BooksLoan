@@ -1,6 +1,28 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Política de Privacidade - Gerenciamento de Empréstimos";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="container mt-5">
+    <h1 class="fw-bold">@ViewData["Title"]</h1>
+    <p class="lead text-muted">Última atualização: 27 de novembro de 2024</p>
+
+    <section class="mt-4">
+        <h2 class="fw-bold">1. Informações Coletadas</h2>
+        <p>Coletamos informações como nome, e-mail e dados de empréstimos para garantir o funcionamento da plataforma.</p>
+    </section>
+
+    <section class="mt-4">
+        <h2 class="fw-bold">2. Finalidade</h2>
+        <p>As informações coletadas são utilizadas exclusivamente para gerenciar os empréstimos entre usuários.</p>
+    </section>
+
+    <section class="mt-4">
+        <h2 class="fw-bold">3. Segurança</h2>
+        <p>Adotamos medidas de segurança para proteger suas informações contra acessos não autorizados.</p>
+    </section>
+
+    <section class="mt-4">
+        <h2 class="fw-bold">4. Contato</h2>
+        <p>Em caso de dúvidas, entre em contato conosco através da página <a asp-controller="Home" asp-action="Contact">Contato</a>.</p>
+    </section>
+</div>
