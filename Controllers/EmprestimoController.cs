@@ -1,12 +1,27 @@
 ﻿using EmprestimoDeLivros.Data;
 using EmprestimoDeLivros.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace EmprestimoDeLivros.Controllers;
 
 public class EmprestimoController : Controller
 {
     private readonly AppDbContext _context;
+
+    private DataTable GetDados()
+    {
+        DataTable dataTable = new DataTable();
+
+        dataTable.TableName = "Dados empréstimos";
+
+        dataTable.Columns.Add("Recebedor", typeof(string));
+        dataTable.Columns.Add("Fornecedor", typeof(string));
+        dataTable.Columns.Add("Livro", typeof(string));
+        dataTable.Columns.Add("Data De Emprestimo", typeof(DateTime));
+        return dataTable;
+    }
+
     public EmprestimoController(AppDbContext context)
     {
         _context = context;
@@ -59,6 +74,14 @@ public class EmprestimoController : Controller
         return View(emprestimo);
     }
 
+    [HttpGet]
+    public IActionResult Exportar()
+    {
+
+        return Ok();
+    }
+
+    
     [HttpPost]
     public IActionResult Cadastrar(EmprestimosModel emprestimos) 
     {
