@@ -1,6 +1,8 @@
-﻿using EmprestimoDeLivros.Data;
+﻿using ClosedXML.Excel;
+using EmprestimoDeLivros.Data;
 using EmprestimoDeLivros.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace EmprestimoDeLivros.Controllers;
 
@@ -11,6 +13,33 @@ public class EmprestimoController : Controller
     {
         _context = context;
     }
+
+    private DataTable GetDados()
+    {
+        DataTable dataTable = new DataTable();
+
+        dataTable.TableName = "Dados empréstimos";
+
+        dataTable.Columns.Add("Recebedor", typeof(string));
+        dataTable.Columns.Add("Fornecedor", typeof(string));
+        dataTable.Columns.Add("Livro", typeof(string));
+        dataTable.Columns.Add("Data De Emprestimo", typeof(DateTime));
+
+        var dados = _context.Emprestimos.ToList();
+
+        if (dados.Count > 0)
+        {
+            dados.ForEach(emprestimo =>
+            {
+                dataTable.Rows.Add(emprestimo.Recebedor);
+                dataTable.Rows.Add(emprestimo.Fornecedor);
+                dataTable.Rows.Add(emprestimo.LivroEmprestado);
+                dataTable.Rows.Add(emprestimo.DataUltimaAtualizacao);
+            });
+        }
+        return dataTable;
+    }    
+
     public IActionResult Index()
     {
         IEnumerable<EmprestimosModel> emprestimos = _context.Emprestimos;
@@ -58,6 +87,24 @@ public class EmprestimoController : Controller
 
         return View(emprestimo);
     }
+
+    [HttpGet]
+    public IActionResult Exportar()
+    {
+        var dados = GetDados();
+
+        using (XLWorkbook workBook = new XLWorkbook())
+        {
+            workBook.AddWorksheet(dados, "Dados Empréstimos");
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+                workBook.SaveAs(ms);
+                return File(ms.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Emprestimo.xls");
+            }
+        }
+    }
+
 
     [HttpPost]
     public IActionResult Cadastrar(EmprestimosModel emprestimos) 
