@@ -1,4 +1,4 @@
-# 📚 EmprestimoDeLivros - Sistema de Gestão de Empréstimos de Livros
+# 📚 Sistema de Gestão de Empréstimos de Livros
 
 EmprestimoDeLivros é uma aplicação ASP.NET Core desenvolvida para facilitar o gerenciamento de empréstimos de livros entre pessoas. A plataforma permite conectar amigos e familiares para emprestar e gerenciar livros diretamente entre usuários, sem a necessidade de um catálogo de livros.
 
