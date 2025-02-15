@@ -1,21 +1,21 @@
-# 📚 Sistema de Gestão de Empréstimos de Livros
+# 📚 Book Loan Management System
 
-EmprestimoDeLivros é uma aplicação ASP.NET Core desenvolvida para facilitar o gerenciamento de empréstimos de livros entre pessoas. A plataforma permite conectar amigos e familiares para emprestar e gerenciar livros diretamente entre usuários, sem a necessidade de um catálogo de livros.
+**EmprestimoDeLivros** is an ASP.NET Core application designed to simplify book lending between individuals. This platform allows friends and family to lend and manage books directly among users, without requiring a centralized book catalog.
 
-## 🚀 Funcionalidades Principais
-- **Gerenciamento de Empréstimos:** Criação, edição e exclusão de empréstimos entre usuários.
-- **Sistema de Login e Autenticação:** Registro de usuários com segurança utilizando criptografia MD5.
-- **Interface Responsiva:** Layout moderno utilizando Bootstrap para uma experiência fluida em dispositivos móveis e desktop.
-- **Segurança e Controle:** Políticas de privacidade implementadas para garantir a segurança dos dados.
+## 🚀 Key Features
+- **Loan Management:** Create, edit, and delete book loans between users.
+- **Authentication & Security:** Secure user registration and login with MD5 encryption.
+- **Responsive Interface:** A modern layout using Bootstrap for a seamless experience on mobile and desktop.
+- **Privacy & Data Security:** Implemented policies to ensure user data protection.
 
-## 🛠️ Tecnologias Utilizadas
-- **ASP.NET Core**: Backend robusto e seguro.
-- **Bootstrap**: Estilo responsivo e moderno.
-- **Entity Framework Core**: Persistência de dados.
-- **SQL Server**: Banco de dados relacional.
-- **JavaScript/jQuery**: Interatividade na aplicação.
+## 🛠️ Technologies Used
+- **ASP.NET Core** – A robust and secure backend framework.
+- **Bootstrap** – A responsive and modern front-end framework.
+- **Entity Framework Core** – Data persistence and ORM.
+- **SQL Server** – Relational database management.
+- **JavaScript/jQuery** – Enhancing interactivity in the application.
 
-## 🏁 Como Executar o Projeto
-1. Clone o repositório:
+## 🏁 How to Run the Project
+1. Clone the repository:
    ```bash
    git clone https://github.com/HumbertoVitalino/EmprestimoDeLivros.git
