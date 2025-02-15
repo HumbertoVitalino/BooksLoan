@@ -1,6 +1,6 @@
 # 📚 Book Loan Management System
 
-**EmprestimoDeLivros** is an ASP.NET Core application designed to simplify book lending between individuals. This platform allows friends and family to lend and manage books directly among users, without requiring a centralized book catalog.
+**BooksLoan** is an ASP.NET Core application designed to simplify book lending between individuals. This platform allows friends and family to lend and manage books directly among users, without requiring a centralized book catalog.
 
 ## 🚀 Key Features
 - **Loan Management:** Create, edit, and delete book loans between users.
